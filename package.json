@@ -1,0 +1,46 @@
+{
+	"name": "gatsby-plugin-dts-css-modules",
+	"description": "GatsbyJS V2/V3 plugin, which automatically Creates TypeScript *.d.ts files for your CSS Modules, no matter which CSS preprocessor (Sass, LESS, Stylus etc.) you are using.",
+	"keywords": [
+		"CSS",
+		"Sass",
+		"SCSS",
+		"LESS",
+		"Stylus",
+		"TypeScript",
+		"type declaration",
+		"dts",
+		"d.ts",
+		"Gatsby",
+		"plugin"
+	],
+	"author": "Jens Duttke <github@duttke.de> (https://github.com/jens-duttke)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jens-duttke/gatsby-plugin-dts-css-modules.git"
+	},
+	"scripts": {
+		"lint": "node node_modules/typescript/bin/tsc --project jsconfig.json",
+		"publish:major": "npm version major",
+		"publish:minor": "npm version minor",
+		"publish:patch": "npm version patch",
+		"preversion": "npm run lint && npm run check-outdated",
+		"postversion": "git push && git push --tags && npm publish",
+		"check-outdated": "check-outdated --ignore-pre-releases"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"dependencies": {
+		"dts-css-modules-loader": "1.1.1"
+	},
+	"peerDependencies": {
+		"gatsby": "^2.0.0 || ^3.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "14.14.34",
+		"check-outdated": "2.6.0",
+		"typescript": "4.2.3"
+	}
+}

@@ -1,0 +1,6 @@
+.github/
+.vscode/
+.editorconfig
+*.log
+jsconfig.json
+npm-debug.log*
