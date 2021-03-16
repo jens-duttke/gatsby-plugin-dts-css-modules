@@ -63,3 +63,38 @@ export const container: string;
 ```
 
 There will be one `export const` for each of your class names.
+
+## Replacing `gatsby-plugin-typescript-css-modules`
+
+Since there are no further updates for `gatsby-plugin-typescript-css-modules`, you can simply replace it by `gatsby-plugin-dts-css-modules` and `gatsby-plugin-sass`:
+
+Just replace:
+
+```js
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    'gatsby-plugin-typescript-css-modules',
+    // ...
+  ],
+  // ...
+}
+```
+
+by:
+
+```js
+module.exports = {
+  // ...
+  plugins: [
+    // ...
+    'gatsby-plugin-sass',
+    'gatsby-plugin-dts-css-modules',
+    // ...
+  ],
+  // ...
+}
+```
+
+Don't forget to also install [`gatsby-plugin-sass`](https://www.npmjs.com/package/gatsby-plugin-sass)!
