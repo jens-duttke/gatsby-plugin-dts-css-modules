@@ -22,7 +22,7 @@
 		"url": "https://github.com/jens-duttke/gatsby-plugin-dts-css-modules.git"
 	},
 	"scripts": {
-		"lint": "node node_modules/typescript/bin/tsc --project jsconfig.json",
+		"lint": "node node_modules/typescript/bin/tsc --project jsconfig.json --maxNodeModuleJsDepth 0",
 		"publish:major": "npm version major",
 		"publish:minor": "npm version minor",
 		"publish:patch": "npm version patch",
