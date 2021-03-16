@@ -5,6 +5,7 @@
 		"module": "commonjs",
 		"resolveJsonModule": true,
 		"checkJs": true,
+		"skipLibCheck": true,
 		"noEmit": true,
 
 		// General settings for code interpretation
