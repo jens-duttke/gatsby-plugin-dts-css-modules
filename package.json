@@ -1,7 +1,7 @@
 {
 	"name": "gatsby-plugin-dts-css-modules",
 	"version": "1.0.0",
-	"description": "GatsbyJS V2/V3 plugin, which automatically Creates TypeScript *.d.ts files for your CSS Modules, no matter which CSS preprocessor (Sass, LESS, Stylus etc.) you are using.",
+	"description": "GatsbyJS V3 plugin, which automatically Creates TypeScript *.d.ts files for your CSS Modules, no matter which CSS preprocessor (Sass, LESS, Stylus etc.) you are using.",
 	"keywords": [
 		"CSS",
 		"Sass",
@@ -37,7 +37,7 @@
 		"dts-css-modules-loader": "1.1.1"
 	},
 	"peerDependencies": {
-		"gatsby": "^2.0.0 || ^3.0.0"
+		"gatsby": "^3.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "14.14.34",
