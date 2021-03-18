@@ -40,11 +40,11 @@ module.exports = {
 
 			if ('oneOf' in rule && rule.oneOf !== undefined) {
 				for (const oneOf of rule.oneOf) {
-					injectAfterCSSLoader(oneOf);
+					injectBeforeCSSLoader(oneOf);
 				}
 			}
 			else {
-				injectAfterCSSLoader(rule);
+				injectBeforeCSSLoader(rule);
 			}
 		}
 
@@ -53,11 +53,12 @@ module.exports = {
 }
 
 /**
+ * Place the `dts-css-modules-loader` before the `css-loader` if it exist.
  *
  * @param {import('webpack').RuleSetRule} rule
  * @returns {void}
  */
-function injectAfterCSSLoader (rule) {
+function injectBeforeCSSLoader (rule) {
 	if (!Array.isArray(rule.use)) {
 		return;
 	}
