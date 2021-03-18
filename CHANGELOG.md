@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.3...HEAD
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.3...HEAD)
 
 ## [1.1.3] - 2021-03-18
 
@@ -15,17 +15,23 @@ https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.3...HE
 
 - Updated information regarding replacing `gatsby-plugin-scss-typescript` and `gatsby-plugin-typescript-css-modules` in the README.md
 
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.2...v1.1.3)
+
 ## [1.1.2] - 2021-03-18
 
 ### Added
 
 - Added basic prevention that the `dts-css-modules-loader` is attached to non-modules-stylesheets
 
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.1...v1.1.2)
+
 ## [1.1.1] - 2021-03-17
 
 ### Changed
 
 - Changed `keywords` in `package.json` to get the plugin listed on the [Gatsby website](https://www.gatsbyjs.com/plugins/gatsby-plugin-dts-css-modules/)
+
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.0...v1.1.1)
 
 ## [1.1.0] - 2021-03-16
 
@@ -36,6 +42,8 @@ https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.3...HE
 ### Removed
 
 - Remove Gatsby V2 support
+
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.0.0...v1.1.0)
 
 ## [1.0.0] - 2021-03-15
 
