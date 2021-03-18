@@ -70,11 +70,25 @@ function injectBeforeCSSLoader (rule) {
 
 		if (
 			(typeof loader === 'string' && loader === cssLoaderPath) ||
-			(typeof loader === 'object' && loader !== null && loader.loader === cssLoaderPath)
+			(typeof loader === 'object' && loader.loader === cssLoaderPath && isCSSModulesLoader(loader))
 		) {
 			rule.use.splice(index, 0, dtsCssModulesLoader);
 
 			return;
 		}
 	}
+}
+
+/**
+ * Basic detection of whether the CSS Modules option is activated in an object-based `css-loader` configuration.
+ *
+ * @param {Exclude<import('webpack').RuleSetUseItem, string | Function>} loader
+ * @returns
+ */
+function isCSSModulesLoader (loader) {
+	if (typeof loader.options === 'object') {
+		return (loader.options.modules !== false);
+	}
+
+	return true;
 }
