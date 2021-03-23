@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.3...HEAD)
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.2.0...HEAD)
+
+## [1.2.0] - 2021-03-23
+
+- [`dts-css-modules-loader` options](https://github.com/Megaputer/dts-css-modules-loader#options) are configurable now
+
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.1.3...v1.2.0)
 
 ## [1.1.3] - 2021-03-18
 
