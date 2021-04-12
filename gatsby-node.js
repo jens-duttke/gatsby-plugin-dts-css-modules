@@ -62,7 +62,8 @@ function injectBeforeCSSLoader (rule, options) {
 		return;
 	}
 
-	const cssLoaderPath = require.resolve('css-loader');
+
+	const cssLoaderPath = getCSSLoaderPath();
 
 	for (let index = 0; index < rule.use.length; index++) {
 		const loader = rule.use[index];
@@ -83,6 +84,17 @@ function injectBeforeCSSLoader (rule, options) {
 			return;
 		}
 	}
+}
+
+/**
+ * Find the path to "css-loader" from gatsby's point of view.
+ *
+ * @returns {string}
+ */
+ function getCSSLoaderPath () {
+	 const resolveDefaultPaths = require.resolve.paths('css-loader') || [];
+
+	return require.resolve('css-loader', { paths: [require.resolve('gatsby'), ...resolveDefaultPaths] })
 }
 
 /**
