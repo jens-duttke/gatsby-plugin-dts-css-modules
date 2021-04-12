@@ -7,9 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.2.0...HEAD)
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.0.0...HEAD)
+
+## [2.0.0] - 2021-04-12
+
+### Fixed
+
+- If multiple `css-loader` are used in the same project (e.g. if Storybook is part of the project), it now tries to find the path to `css-loader` from gatsby's point of view, instead of the CWD.
+
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.2.0...v2.0.0)
 
 ## [1.2.0] - 2021-03-23
+
+### Added
 
 - [`dts-css-modules-loader` options](https://github.com/Megaputer/dts-css-modules-loader#options) are configurable now
 
