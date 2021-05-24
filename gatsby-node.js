@@ -62,7 +62,6 @@ function injectBeforeCSSLoader (rule, options) {
 		return;
 	}
 
-
 	const cssLoaderPath = getCSSLoaderPath();
 
 	for (let index = 0; index < rule.use.length; index++) {
@@ -91,8 +90,8 @@ function injectBeforeCSSLoader (rule, options) {
  *
  * @returns {string}
  */
- function getCSSLoaderPath () {
-	 const resolveDefaultPaths = require.resolve.paths('css-loader') || [];
+function getCSSLoaderPath () {
+	const resolveDefaultPaths = require.resolve.paths('css-loader') || [];
 
 	return require.resolve('css-loader', { paths: [require.resolve('gatsby'), ...resolveDefaultPaths] })
 }
