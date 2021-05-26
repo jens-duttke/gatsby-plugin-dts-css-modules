@@ -15,8 +15,12 @@ This plugin utilizes the Webpack loader [dts-css-modules-loader](https://github.
 
 ## Installation
 
+Ensure that you are using atleast Node.js v14.0.0.
+
 ```sh
 npm install gatsby-plugin-dts-css-modules --save-dev
+# or
+yarn add gatsby-plugin-dts-css-modules --dev
 ```
 
 Then, add the plugin to your `gatsby-config.js` …
