@@ -41,8 +41,8 @@
 		"joi": "^17.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "16.9.0",
-		"gatsby": "3.13.0",
-		"typescript": "4.4.2"
+		"@types/node": "16.11.6",
+		"gatsby": "4.1.0",
+		"typescript": "4.4.4"
 	}
 }
