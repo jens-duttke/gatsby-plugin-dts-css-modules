@@ -37,7 +37,7 @@
 		"dts-css-modules-loader": "1.2.4"
 	},
 	"peerDependencies": {
-		"gatsby": "^3.0.0",
+		"gatsby": ">= 3",
 		"joi": "^17.0.0"
 	},
 	"devDependencies": {

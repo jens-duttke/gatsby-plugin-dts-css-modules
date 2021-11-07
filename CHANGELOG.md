@@ -7,13 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.1.1...HEAD)
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.2.0...HEAD)
+
+## [2.2.0] - 2021-11-07
+
+### Changed
+
+- Added support for Gatsby v4
+
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.1.1...v2.2.0)
 
 ## [2.1.1] - 2021-08-24
 
 ### Changed
 
-- Update `dts-css-modules-loader` from v1.2.2 to v1.2.4
+- Updated `dts-css-modules-loader` from v1.2.2 to v1.2.4
 
 [Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.1.0...v2.1.1)
 
@@ -21,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Update `dts-css-modules-loader` from v1.2.1 to v1.2.2, to support a breaking change in `gatsby` v3.5.1 introduced by `css-loader` v3.2.5, which leads to empty d.ts files.
+- Updated `dts-css-modules-loader` from v1.2.1 to v1.2.2, to support a breaking change in `gatsby` v3.5.1 introduced by `css-loader` v3.2.5, which leads to empty d.ts files.
 
 [Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.0.0...v2.1.0)
 
@@ -73,7 +81,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-- Remove Gatsby V2 support
+- Removed Gatsby v2 support
 
 [Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v1.0.0...v1.1.0)
 
