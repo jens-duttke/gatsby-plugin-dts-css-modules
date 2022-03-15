@@ -18,6 +18,7 @@
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
 		"alwaysStrict": true,
+		"exactOptionalPropertyTypes": true,
 		"forceConsistentCasingInFileNames": true,
 		"keyofStringsOnly": true,
 		"noFallthroughCasesInSwitch": true,
@@ -33,7 +34,8 @@
 		"strictNullChecks": true,
 		"strictPropertyInitialization": true,
 		"suppressExcessPropertyErrors": false,
-		"suppressImplicitAnyIndexErrors": true
+		"suppressImplicitAnyIndexErrors": true,
+		"useUnknownInCatchVariables": true
 	},
     "include": [
 		"./*.js"
