@@ -7,11 +7,13 @@
 
 # gatsby-plugin-dts-css-modules
 
-[GatsbyJS](gatsbyjs.org) V3 plugin, which automatically creates TypeScript `*.d.ts` files for your CSS Modules, no matter which CSS preprocessor (Sass, LESS, Stylus etc.) you are using.
+[GatsbyJS](gatsbyjs.org) V4 plugin, which automatically creates TypeScript `*.d.ts` files for your CSS Modules, no matter which CSS preprocessor (Sass, LESS, Stylus etc.) you are using.
 
 If you want to know more about CSS Modules, I recommend the article ["Component-Scoped Styles with CSS Modules" on the GatsbyJS website](https://www.gatsbyjs.com/docs/how-to/styling/css-modules/).
 
 This plugin utilizes the Webpack loader [dts-css-modules-loader](https://github.com/Megaputer/dts-css-modules-loader), which does not make any changes in content of styles, just creates `*.d.ts` file during the work.
+
+If for some reason you need to stay with Gatsby V3, I recommend using version `2.2.0` of this plugin.
 
 ## Installation
 
