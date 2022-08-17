@@ -7,7 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.2.0...HEAD)
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v3.0.0...HEAD)
+
+## [3.0.0] - 2022-08-17
+
+### Changed
+
+- Updated to `dts-css-modules-loader` from v1.2.4 to v2.0.0, which only supports `webpack` version `5`. In the result Gatsby V4+ is required now.
+
+If for some reason you need to stay with Gatsby V3, I recommend using version `2.2.0` of this plugin.
+
+[Show all code changes](https://github.com/jens-duttke/gatsby-plugin-dts-css-modules/compare/v2.2.0...v3.0.0)
 
 ## [2.2.0] - 2021-11-07
 
